@@ -23,7 +23,7 @@ delay=30
 
 TO = 'getster.incognito@gmail.com' 
 GMAIL_USER = 'getster.incognito@gmail.com'
-GMAIL_PASS = 'greexamrvce'
+GMAIL_PASS = ''
 SUBJECT = 'Tickets are now available, Book fast'
 TEXT = 'The tickets are now available for the ' + show + ' show at the venue ' +venue
 
