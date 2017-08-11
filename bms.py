@@ -18,12 +18,12 @@ hdr = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML,
        'Accept-Language': 'en-US,en;q=0.8',
        'Connection': 'keep-alive'}
 venue ='CXCB' 
-show='1:30 PM' 
+show='11:00 PM' 
 delay=30 
 
 TO = 'getster.incognito@gmail.com' 
 GMAIL_USER = 'getster.incognito@gmail.com'
-GMAIL_PASS = ''
+GMAIL_PASS = 'enterYourPasswordHere'
 SUBJECT = 'Tickets are now available, Book fast'
 TEXT = 'The tickets are now available for the ' + show + ' show at the venue ' +venue
 
