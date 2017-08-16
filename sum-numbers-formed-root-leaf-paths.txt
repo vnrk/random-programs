@@ -1,0 +1,12 @@
+int sumrootleafPaths(struct node *root, int val)
+{
+	if(root == NULL)
+		return 0;
+	val = val*10 + root->data;
+	
+	if(root->left == NULL && root->right == NULL)
+		return val;
+	
+	return sumrootleafPaths(root->left, val) + sumrootleafPaths(root->right, val);
+
+}
